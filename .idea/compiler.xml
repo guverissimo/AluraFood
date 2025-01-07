@@ -9,17 +9,18 @@
         <outputRelativeToContentRoot value="true" />
         <module name="pagamentos" />
         <module name="server" />
+        <module name="pedidos" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="pagamento" target="1.5" />
-      <module name="pedidos" target="17" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="pagamento" options="" />
       <module name="pagamentos" options="-parameters" />
+      <module name="pedidos" options="-parameters" />
       <module name="server" options="-parameters" />
     </option>
   </component>
